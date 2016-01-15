@@ -3,6 +3,6 @@ class bash {
 
   file {
     "/etc/bash.bashrc":
-      source => "puppet:///module/bash/${::lsbdistcodename}.bashrc",
+      source => "puppet:///modules/bash/${::lsbdistcodename}.bashrc",
   }
 }
